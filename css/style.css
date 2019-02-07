@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Fontix;
+  src: url(Fontix-Regular.ttf);
+}
+
+body {
+  background-color: #009edb;
+  background-image: url("../media/web/tilix-grid.png");
+  background-repeat: repeat;
+  image-rendering: pixelated;
+  padding: 0;
+  margin: 0;
+  background-size: 48px 24px;
+  font-family: Fontix, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#container {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+figure {
+  border-style: solid solid none solid;
+  border-width: 2px;
+  border-color: black;
+  box-sizing: border-box;
+  padding: 0;
+  display: table;
+  margin: 11px;
+  box-shadow: 2px 2px;
+}
+
+img {
+  zoom: 2;
+  display: table-row;
+}
+
+figcaption {
+  padding: 4px 6px;
+  display: table-caption;
+  box-sizing: border-box;
+  background-color: #00b9f2;
+  caption-side: bottom;
+  border-style: none solid solid solid;
+  border-width: 2px;
+  box-shadow: 2px 2px;
+  color: black;
+}
+
+strong {
+  color: white;
+  font-weight: normal;
+}
+
+.logo {
+  margin: -7px -1px -11px -1px;
+}
