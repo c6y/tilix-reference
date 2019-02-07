@@ -23,15 +23,30 @@ body {
   flex-wrap: wrap;
 }
 
+.logo {
+  margin: -19px 23px -11px -13px;
+}
+
+.textbox,
 figure {
-  border-style: solid solid none solid;
+  margin: 11px;
+  box-shadow: 2px 2px;
   border-width: 2px;
   border-color: black;
   box-sizing: border-box;
+  display: inline-table;
+}
+
+.textbox {
+  width: 242px;
+  background-color: #00b9f2;
+  border-style: solid;
+  padding: 4px 6px;
+}
+
+figure {
+  border-style: solid solid none solid;
   padding: 0;
-  display: table;
-  margin: 11px;
-  box-shadow: 2px 2px;
 }
 
 img {
@@ -51,11 +66,12 @@ figcaption {
   color: black;
 }
 
+a {
+  text-decoration: none;
+  color: #2F3EA8;
+}
+
 strong {
   color: white;
   font-weight: normal;
-}
-
-.logo {
-  margin: -19px 23px -11px -13px;
 }
