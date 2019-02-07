@@ -38,10 +38,21 @@ figure {
 }
 
 .textbox {
-  width: 242px;
   background-color: #00b9f2;
   border-style: solid;
   padding: 4px 6px;
+}
+
+.w10 {
+  width: 242px;
+}
+
+.w8 {
+  width: 194px;
+}
+
+.w6 {
+  width: 146px;
 }
 
 figure {
