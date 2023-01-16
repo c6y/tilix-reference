@@ -58,6 +58,7 @@ figure {
 figure {
   border-style: solid solid none solid;
   padding: 0;
+  height: fit-content;
 }
 
 img {
